@@ -1,0 +1,33 @@
+Begrüßung = "Hallo, Reisender ! Tippen Sie 'reiseKosten()' und in der Klamme der Reihe nach die Stadt, in der sie übernachten wollen, die Stadt die Sie als erstes Besuchen möchten und die Stadt, in der Sie die längste Zeit verbringen möchten. Ihnen stehen Berlin, München, Frankfurt und Bremen zur Verfügung!"
+Berlin = {
+    "Hinfahrt": 183,
+    "Transit": 318,
+    "Übernachtung": 431
+}
+Frankfurt = {
+    "Hinfahrt": 220,
+    "Transit": 202,
+    "Übernachtung": 231
+}
+München = {
+    "Hinfahrt": 222,
+    "Transit": 341,
+    "Übernachtung": 342
+}
+Bremen = {
+    "Hinfahrt": 475,
+    "Transit": 420,
+    "Übernachtung": 412
+}
+def übernachtungKosten(hotel_stadt) :
+    return hotel_stadt["Übernachtung"]
+
+def hinfahrtKosten(hinfahrt_stadt) :
+    return hinfahrt_stadt["Hinfahrt"]
+
+def transitKosten(transit_stadt) :
+    return transit_stadt["Transit"]
+
+def reiseKosten(hotel_stadt,hinfahrt_stadt,transit_stadt) :
+    return(übernachtungKosten(hotel_stadt) + hinfahrtKosten(hinfahrt_stadt) + transitKosten(transit_stadt))
+print(Begrüßung)
