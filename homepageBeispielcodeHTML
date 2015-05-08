@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" href="C4L_CSS.css" type="text/css">
+    <link rel="stylesheet" href="/Volumes/128GBSSD/Coding is cool/Resources/Frameworks/bootstrap-3.3.4-dist/css/bootstrap.css">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="C4L_JS.js"></script>
+    <title>Coding is cool | Home</title>
+  </head>
+  <body>
+  	<div class="nav">
+      <ul class="pull-left">
+        <li><a href="/Volumes/128GBSSD/Coding is cool/Code/C4L_HTML.html">Home</a></li>
+        <li><a href="/Volumes/128GBSSD/Coding is cool/Code/C4LAbout_HTML.html">About</a></li>
+        <li><a href="#">Learn</a></li>
+      </ul>
+      <ul class="pull-right">
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Donate</a></li>
+        </ul>
+    </div>
+  	<div class="main">
+      <div class="headline">
+  		  <h1>Welcome, traveller</h1>
+      </div>
+      <div class="thumbnail">
+        <img src="/Volumes/128GBSSD/Coding is cool/Resources/Pictures/Bild002.jpg" width="900" height = "500">
+      </div>
+      <p id="hl2">Chose thy language</p>
+      <div class="swift-button"></div>
+      <div class="python-button"></div>
+      <div class="basic-button"></div>
+      <div class="html-button"></div>
+      <div class="css-button"></div>
+      <div class="js-button"></div>
+      <div id="footer">
+        <p>@oliverweinmeier, Coding's cool ,Weil am Rhein, Baden-Wuerttemberg, Germany | Tel: (07621) 555-5555 <a href="mailto:Onlineoliver@live.com">Onlineoliver@live.com</a></p>
+      </div>
+  	</div>
+  </body>
+</html>
